@@ -4,10 +4,18 @@ export const toolsCalling = async (
   message: string
 ): Promise<object | string> => {
   try {
+    const csrfToken = (window as any)?.csrf_token;
+    console.log(csrfToken)
     const res = await axios.post(
       '/api/method/doodle.chat_app.app.chat_bot',
       { data: message },
-      // { withCredentials: true }
+      {
+        withCredentials: true,
+        headers: {
+          'X-Frappe-CSRF-Token': csrfToken,
+          'Content-Type': 'application/json',
+        },
+      }
     );
 
     if (res.data && res.data.message) {
@@ -23,4 +31,3 @@ export const toolsCalling = async (
     return `Error occurred: ${error.message || 'Unknown error'}`;
   }
 };
-``;
