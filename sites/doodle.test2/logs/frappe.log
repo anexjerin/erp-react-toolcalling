@@ -1,0 +1,123 @@
+2025-04-10 04:03:16,120 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'0': 's', '1': 't', '2': 'e', '3': 'i', '4': 'w', '5': 'e', 'cmd': 'doodle.chat_app.app.say_hello'}
+2025-04-10 05:23:05,259 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'name': 'steiwe', 'cmd': 'doodle.chat_app.app.say_hello'}
+2025-04-10 05:23:08,577 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'name': 'steiwe', 'cmd': 'doodle.chat_app.app.say_hello'}
+2025-04-10 05:23:11,580 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'name': 'steiwe', 'cmd': 'doodle.chat_app.app.say_hello'}
+2025-04-10 05:36:36,330 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'steiwe', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 05:36:59,524 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'steiwe', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 05:40:12,738 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'steiwe', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 05:40:23,007 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'steiwe', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 05:40:51,603 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'steiwe', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 05:56:33,819 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'steiwe', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 06:00:17,240 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 06:00:34,669 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 06:08:39,962 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'hey', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 06:40:39,145 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 06:40:53,470 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:00:21,123 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'Hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:00:21,197 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'Hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:00:21,211 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'Hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:00:38,439 ERROR frappe Error while inserting deferred Error Log record: Error Log ff00hhuq54: 'Title' (Error code: 429 - {'error': {'message': 'Rate limit reached for model `deepseek-r1-distill-llama-70b` in organization `org_01jhwke3a3fjjvabxwk47shywz` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6332, Requested 6. Please try again in 3.386s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}) will get truncated, as max characters allowed is 140
+Site: doodle.test2
+Form Dict: {}
+2025-04-10 07:00:38,442 ERROR frappe Error while inserting deferred Error Log record: Error Log ff0h83cfdq: 'Title' (Error code: 429 - {'error': {'message': 'Rate limit reached for model `deepseek-r1-distill-llama-70b` in organization `org_01jhwke3a3fjjvabxwk47shywz` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6324, Requested 6. Please try again in 3.305s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}) will get truncated, as max characters allowed is 140
+Site: doodle.test2
+Form Dict: {}
+2025-04-10 07:00:38,446 ERROR frappe Error while inserting deferred Error Log record: Error Log ff006krl93: 'Title' (Error code: 429 - {'error': {'message': 'Rate limit reached for model `deepseek-r1-distill-llama-70b` in organization `org_01jhwke3a3fjjvabxwk47shywz` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6322, Requested 6. Please try again in 3.286s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}) will get truncated, as max characters allowed is 140
+Site: doodle.test2
+Form Dict: {}
+2025-04-10 07:00:45,185 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'Hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:01:09,963 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'Hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:02:15,237 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'Hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:02:15,412 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'message': 'Hello', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:08:49,454 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'message', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:10:18,901 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'message', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:10:55,400 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'message', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:13:29,878 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'message', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:13:59,895 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'message', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:14:27,643 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'message', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:16:56,528 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:17:23,110 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 07:27:41,309 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 10:36:38,343 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hi there', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 10:37:02,463 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 10:38:28,931 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 10:38:53,069 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hi', 'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 10:39:06,167 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 11:34:46,506 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'cmd': 'doodle.chat_app.app.chat_bot'}
+2025-04-10 12:17:22,721 ERROR frappe New Exception collected in error log
+Site: doodle.test2
+Form Dict: {'data': 'hello', 'cmd': 'doodle.chat_app.app.chat_bot'}

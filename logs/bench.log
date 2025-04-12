@@ -1,0 +1,231 @@
+2025-04-09 04:17:13,212 DEBUG cd doodle-start && python3 -m venv env
+2025-04-09 04:17:16,816 DEBUG cd doodle-start && /home/vikki/code/doodle-bench2/doodle-start/env/bin/python -m pip install --quiet --upgrade pip
+2025-04-09 04:17:19,853 DEBUG cd doodle-start && /home/vikki/code/doodle-bench2/doodle-start/env/bin/python -m pip install --quiet wheel
+2025-04-09 04:17:32,682 LOG Getting frappe
+2025-04-09 04:17:32,682 DEBUG cd doodle-start/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-04-09 04:17:54,111 LOG Installing frappe
+2025-04-09 04:17:54,111 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start && /home/vikki/code/doodle-bench2/doodle-start/env/bin/python -m pip install --quiet --upgrade -e /home/vikki/code/doodle-bench2/doodle-start/apps/frappe 
+2025-04-09 04:18:41,310 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start/apps/frappe && yarn install --check-files
+2025-04-09 04:18:49,260 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-09 04:18:49,260 DEBUG cd doodle-start && bench build
+2025-04-09 04:18:49,397 INFO /usr/local/bin/bench build
+2025-04-09 04:19:04,124 LOG setting up backups
+2025-04-09 04:19:04,148 LOG backups were set up
+2025-04-09 04:19:04,148 INFO Bench doodle-start initialized
+2025-04-09 04:26:25,654 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-04-09 04:28:38,346 WARNING /usr/local/bin/bench get-app erpnext --branch version-15 executed with exit code 1
+2025-04-09 04:28:40,286 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-04-09 04:28:40,905 LOG Getting erpnext
+2025-04-09 04:28:40,905 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-04-09 04:28:54,452 LOG Installing erpnext
+2025-04-09 04:28:54,453 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start && /home/vikki/code/doodle-bench2/doodle-start/env/bin/python -m pip install --quiet --upgrade -e /home/vikki/code/doodle-bench2/doodle-start/apps/erpnext 
+2025-04-09 04:29:03,177 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start/apps/erpnext && yarn install --check-files
+2025-04-09 04:29:03,831 DEBUG bench build --app erpnext
+2025-04-09 04:29:04,010 INFO /usr/local/bin/bench build --app erpnext
+2025-04-09 04:29:07,876 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-09 04:29:19,907 INFO /usr/local/bin/bench get-app hrms --branch version-15
+2025-04-09 04:29:20,518 LOG Getting hrms
+2025-04-09 04:29:20,519 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch version-15 --depth 1 --origin upstream
+2025-04-09 04:29:26,401 LOG Installing hrms
+2025-04-09 04:29:26,401 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start && /home/vikki/code/doodle-bench2/doodle-start/env/bin/python -m pip install --quiet --upgrade -e /home/vikki/code/doodle-bench2/doodle-start/apps/hrms 
+2025-04-09 04:29:28,974 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start/apps/hrms && yarn install --check-files
+2025-04-09 04:29:51,944 DEBUG bench build --app hrms
+2025-04-09 04:29:52,123 INFO /usr/local/bin/bench build --app hrms
+2025-04-09 04:30:16,632 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-09 04:34:21,474 INFO /usr/local/bin/bench new-site doodle.test
+2025-04-09 04:34:35,335 INFO /usr/local/bin/bench new-site doodle.test
+2025-04-09 04:36:35,774 INFO /usr/local/bin/bench new-site doodle.test2
+2025-04-09 04:37:34,554 INFO /usr/local/bin/bench use react.test2
+2025-04-09 04:37:46,763 INFO /usr/local/bin/bench use doodle.test2
+2025-04-09 04:37:57,870 INFO /usr/local/bin/bench install-app erpnext hrms
+2025-04-09 05:07:55,146 INFO /usr/local/bin/bench install-app erpnext hrms
+2025-04-09 05:08:18,634 INFO /usr/local/bin/bench start
+2025-04-09 05:08:18,967 INFO /usr/local/bin/bench serve --port 8000
+2025-04-09 05:08:18,967 INFO /usr/local/bin/bench watch
+2025-04-09 05:08:18,982 INFO /usr/local/bin/bench schedule
+2025-04-09 05:08:18,987 INFO /usr/local/bin/bench worker
+2025-04-09 05:16:10,049 INFO /usr/local/bin/bench new-app doodle
+2025-04-09 05:16:10,060 LOG creating new app doodle
+2025-04-09 05:16:36,627 LOG Installing doodle
+2025-04-09 05:16:36,629 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start && /home/vikki/code/doodle-bench2/doodle-start/env/bin/python -m pip install --quiet --upgrade -e /home/vikki/code/doodle-bench2/doodle-start/apps/doodle 
+2025-04-09 05:16:40,110 DEBUG bench build --app doodle
+2025-04-09 05:16:40,319 INFO /usr/local/bin/bench build --app doodle
+2025-04-09 05:16:43,328 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-09 05:16:58,810 INFO /usr/local/bin/bench install-app doodle
+2025-04-09 05:17:16,866 INFO /usr/local/bin/bench get-app https://github.com/NagariaHussain/doppio
+2025-04-09 05:17:16,876 LOG Getting doppio
+2025-04-09 05:17:16,876 DEBUG cd ./apps && git clone https://github.com/NagariaHussain/doppio  --depth 1 --origin upstream
+2025-04-09 05:17:19,004 LOG Installing doppio
+2025-04-09 05:17:19,005 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start && /home/vikki/code/doodle-bench2/doodle-start/env/bin/python -m pip install --quiet --upgrade -e /home/vikki/code/doodle-bench2/doodle-start/apps/doppio 
+2025-04-09 05:17:20,511 DEBUG cd /home/vikki/code/doodle-bench2/doodle-start/apps/doppio && yarn install --check-files
+2025-04-09 05:17:29,278 DEBUG bench build --app doppio
+2025-04-09 05:17:29,425 INFO /usr/local/bin/bench build --app doppio
+2025-04-09 05:17:31,437 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-09 05:17:43,742 INFO /usr/local/bin/bench add-spa
+2025-04-09 05:32:00,709 INFO /usr/local/bin/bench start
+2025-04-09 05:32:01,017 INFO /usr/local/bin/bench worker
+2025-04-09 05:32:01,021 INFO /usr/local/bin/bench schedule
+2025-04-09 05:32:01,024 INFO /usr/local/bin/bench watch
+2025-04-09 05:32:01,028 INFO /usr/local/bin/bench serve --port 8000
+2025-04-09 05:52:16,081 INFO /usr/local/bin/bench build
+2025-04-09 05:53:05,125 INFO /usr/local/bin/bench start
+2025-04-09 05:53:05,392 INFO /usr/local/bin/bench watch
+2025-04-09 05:53:05,395 INFO /usr/local/bin/bench worker
+2025-04-09 05:53:05,397 INFO /usr/local/bin/bench serve --port 8000
+2025-04-09 05:53:05,397 INFO /usr/local/bin/bench schedule
+2025-04-09 06:00:03,265 INFO /usr/local/bin/bench --verbose --site all backup
+2025-04-09 06:21:55,791 INFO /usr/local/bin/bench build
+2025-04-09 06:26:21,771 INFO /usr/local/bin/bench start
+2025-04-09 06:26:22,073 INFO /usr/local/bin/bench watch
+2025-04-09 06:26:22,074 INFO /usr/local/bin/bench schedule
+2025-04-09 06:26:22,075 INFO /usr/local/bin/bench worker
+2025-04-09 06:26:22,077 INFO /usr/local/bin/bench serve --port 8000
+2025-04-09 07:05:00,977 INFO /usr/local/bin/bench build
+2025-04-09 08:55:52,900 INFO /usr/local/bin/bench start
+2025-04-09 08:55:53,164 INFO /usr/local/bin/bench schedule
+2025-04-09 08:55:53,168 INFO /usr/local/bin/bench serve --port 8000
+2025-04-09 08:55:53,179 INFO /usr/local/bin/bench watch
+2025-04-09 08:55:53,187 INFO /usr/local/bin/bench worker
+2025-04-09 09:07:32,510 INFO /usr/local/bin/bench build
+2025-04-09 12:00:02,939 INFO /usr/local/bin/bench --verbose --site all backup
+2025-04-10 03:17:59,850 INFO /usr/local/bin/bench start
+2025-04-10 03:18:00,104 INFO /usr/local/bin/bench schedule
+2025-04-10 03:18:00,105 INFO /usr/local/bin/bench worker
+2025-04-10 03:18:00,106 INFO /usr/local/bin/bench watch
+2025-04-10 03:18:00,108 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 03:56:54,273 INFO /usr/local/bin/bench start
+2025-04-10 03:56:54,539 INFO /usr/local/bin/bench schedule
+2025-04-10 03:56:54,543 INFO /usr/local/bin/bench watch
+2025-04-10 03:56:54,558 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 03:56:54,560 INFO /usr/local/bin/bench worker
+2025-04-10 03:57:01,101 INFO /usr/local/bin/bench build
+2025-04-10 03:58:10,418 INFO /usr/local/bin/bench start
+2025-04-10 03:58:10,633 INFO /usr/local/bin/bench watch
+2025-04-10 03:58:10,635 INFO /usr/local/bin/bench schedule
+2025-04-10 03:58:10,642 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 03:58:10,645 INFO /usr/local/bin/bench worker
+2025-04-10 03:59:53,616 INFO /usr/local/bin/bench build
+2025-04-10 04:02:22,895 INFO /usr/local/bin/bench build
+2025-04-10 04:04:39,505 INFO /usr/local/bin/bench build
+2025-04-10 04:27:05,278 INFO /usr/local/bin/bench build
+2025-04-10 05:13:06,815 INFO /usr/local/bin/bench build
+2025-04-10 05:40:58,713 INFO /usr/local/bin/bench start
+2025-04-10 05:40:58,982 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 05:40:58,990 INFO /usr/local/bin/bench watch
+2025-04-10 05:40:58,991 INFO /usr/local/bin/bench worker
+2025-04-10 05:40:58,998 INFO /usr/local/bin/bench schedule
+2025-04-10 05:41:06,485 INFO /usr/local/bin/bench build
+2025-04-10 05:43:10,813 INFO /usr/local/bin/bench start
+2025-04-10 05:43:11,042 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 05:43:11,047 INFO /usr/local/bin/bench watch
+2025-04-10 05:43:11,050 INFO /usr/local/bin/bench schedule
+2025-04-10 05:43:11,069 INFO /usr/local/bin/bench worker
+2025-04-10 06:00:04,737 INFO /usr/local/bin/bench --verbose --site all backup
+2025-04-10 07:13:48,616 INFO /usr/local/bin/bench start
+2025-04-10 07:13:48,894 INFO /usr/local/bin/bench schedule
+2025-04-10 07:13:48,896 INFO /usr/local/bin/bench worker
+2025-04-10 07:13:48,897 INFO /usr/local/bin/bench watch
+2025-04-10 07:13:48,902 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 07:30:40,221 INFO /usr/local/bin/bench build
+2025-04-10 07:34:59,839 INFO /usr/local/bin/bench build
+2025-04-10 07:44:40,156 INFO /usr/local/bin/bench build
+2025-04-10 08:49:21,998 INFO /usr/local/bin/bench build
+2025-04-10 10:34:07,186 INFO /usr/local/bin/bench build
+2025-04-10 10:36:01,262 INFO /usr/local/bin/bench build
+2025-04-10 10:37:17,239 INFO /usr/local/bin/bench build
+2025-04-10 10:38:10,995 INFO /usr/local/bin/bench start
+2025-04-10 10:38:11,250 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 10:38:11,253 INFO /usr/local/bin/bench schedule
+2025-04-10 10:38:11,258 INFO /usr/local/bin/bench worker
+2025-04-10 10:38:11,262 INFO /usr/local/bin/bench watch
+2025-04-10 11:22:32,788 INFO /usr/local/bin/bench start
+2025-04-10 11:22:33,058 INFO /usr/local/bin/bench schedule
+2025-04-10 11:22:33,063 INFO /usr/local/bin/bench watch
+2025-04-10 11:22:33,066 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 11:22:33,068 INFO /usr/local/bin/bench worker
+2025-04-10 11:22:44,305 INFO /usr/local/bin/bench start
+2025-04-10 11:22:44,563 INFO /usr/local/bin/bench schedule
+2025-04-10 11:22:44,563 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 11:22:44,564 INFO /usr/local/bin/bench watch
+2025-04-10 11:22:44,569 INFO /usr/local/bin/bench worker
+2025-04-10 11:24:13,666 INFO /usr/local/bin/bench start
+2025-04-10 11:24:13,896 INFO /usr/local/bin/bench watch
+2025-04-10 11:24:13,897 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 11:24:13,899 INFO /usr/local/bin/bench schedule
+2025-04-10 11:24:13,901 INFO /usr/local/bin/bench worker
+2025-04-10 11:24:25,220 INFO /usr/local/bin/bench build
+2025-04-10 11:25:12,896 INFO /usr/local/bin/bench build
+2025-04-10 11:30:53,042 INFO /usr/local/bin/bench start
+2025-04-10 11:30:53,348 INFO /usr/local/bin/bench watch
+2025-04-10 11:30:53,348 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 11:30:53,353 INFO /usr/local/bin/bench worker
+2025-04-10 11:30:53,354 INFO /usr/local/bin/bench schedule
+2025-04-10 11:32:40,286 INFO /usr/local/bin/bench clear-cache
+2025-04-10 11:32:49,848 INFO /usr/local/bin/bench restart
+2025-04-10 11:32:49,874 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-04-10 11:32:50,265 INFO A newer version of bench is available: 5.23.0 → 5.24.1
+2025-04-10 11:33:03,573 INFO /usr/local/bin/bench clear-cache
+2025-04-10 11:34:35,966 INFO /usr/local/bin/bench start
+2025-04-10 11:34:36,188 INFO /usr/local/bin/bench watch
+2025-04-10 11:34:36,189 INFO /usr/local/bin/bench schedule
+2025-04-10 11:34:36,191 INFO /usr/local/bin/bench worker
+2025-04-10 11:34:36,193 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 11:59:29,148 INFO /usr/local/bin/bench start
+2025-04-10 11:59:29,394 INFO /usr/local/bin/bench schedule
+2025-04-10 11:59:29,395 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 11:59:29,396 INFO /usr/local/bin/bench watch
+2025-04-10 11:59:29,403 INFO /usr/local/bin/bench worker
+2025-04-10 12:00:03,855 INFO /usr/local/bin/bench --verbose --site all backup
+2025-04-10 12:00:10,804 INFO /usr/local/bin/bench clear-cache
+2025-04-10 12:00:13,835 INFO /usr/local/bin/bench start
+2025-04-10 12:00:14,053 INFO /usr/local/bin/bench watch
+2025-04-10 12:00:14,056 INFO /usr/local/bin/bench schedule
+2025-04-10 12:00:14,059 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 12:00:14,061 INFO /usr/local/bin/bench worker
+2025-04-10 12:04:28,336 INFO /usr/local/bin/bench build
+2025-04-10 12:05:20,157 INFO /usr/local/bin/bench start
+2025-04-10 12:05:20,377 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 12:05:20,380 INFO /usr/local/bin/bench watch
+2025-04-10 12:05:20,381 INFO /usr/local/bin/bench worker
+2025-04-10 12:05:20,382 INFO /usr/local/bin/bench schedule
+2025-04-10 12:10:39,161 INFO /usr/local/bin/bench start
+2025-04-10 12:10:39,372 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 12:10:39,375 INFO /usr/local/bin/bench schedule
+2025-04-10 12:10:39,388 INFO /usr/local/bin/bench worker
+2025-04-10 12:10:39,391 INFO /usr/local/bin/bench watch
+2025-04-10 12:15:37,073 INFO /usr/local/bin/bench start
+2025-04-10 12:15:37,301 INFO /usr/local/bin/bench worker
+2025-04-10 12:15:37,303 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 12:15:37,304 INFO /usr/local/bin/bench schedule
+2025-04-10 12:15:37,305 INFO /usr/local/bin/bench watch
+2025-04-10 12:22:19,275 INFO /usr/local/bin/bench clear-cache
+2025-04-10 12:22:37,822 INFO /usr/local/bin/bench start
+2025-04-10 12:22:38,033 INFO /usr/local/bin/bench watch
+2025-04-10 12:22:38,034 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 12:22:38,038 INFO /usr/local/bin/bench worker
+2025-04-10 12:22:38,039 INFO /usr/local/bin/bench schedule
+2025-04-10 12:57:36,570 INFO /usr/local/bin/bench build
+2025-04-10 12:58:27,889 INFO /usr/local/bin/bench start
+2025-04-10 12:58:28,125 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 12:58:28,126 INFO /usr/local/bin/bench watch
+2025-04-10 12:58:28,127 INFO /usr/local/bin/bench worker
+2025-04-10 12:58:28,130 INFO /usr/local/bin/bench schedule
+2025-04-10 13:07:31,760 INFO /usr/local/bin/bench start
+2025-04-10 13:07:31,988 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 13:07:31,990 INFO /usr/local/bin/bench watch
+2025-04-10 13:07:31,993 INFO /usr/local/bin/bench schedule
+2025-04-10 13:07:31,994 INFO /usr/local/bin/bench worker
+2025-04-10 13:07:35,814 INFO /usr/local/bin/bench build
+2025-04-10 13:08:40,805 INFO /usr/local/bin/bench start
+2025-04-10 13:08:41,025 INFO /usr/local/bin/bench worker
+2025-04-10 13:08:41,028 INFO /usr/local/bin/bench schedule
+2025-04-10 13:08:41,029 INFO /usr/local/bin/bench serve --port 8000
+2025-04-10 13:08:41,031 INFO /usr/local/bin/bench watch
+2025-04-10 18:00:07,884 INFO /usr/local/bin/bench --verbose --site all backup
+2025-04-11 06:00:07,750 INFO /usr/local/bin/bench --verbose --site all backup
+2025-04-11 12:00:07,599 INFO /usr/local/bin/bench --verbose --site all backup
+2025-04-12 04:55:03,222 INFO /usr/local/bin/bench start
+2025-04-12 04:55:03,477 INFO /usr/local/bin/bench serve --port 8000
+2025-04-12 04:55:03,478 INFO /usr/local/bin/bench schedule
+2025-04-12 04:55:03,478 INFO /usr/local/bin/bench watch
+2025-04-12 04:55:03,480 INFO /usr/local/bin/bench worker
