@@ -5,7 +5,7 @@ export const toolsCalling = async (
 ): Promise<object | string> => {
   try {
     const csrfToken = (window as any)?.csrf_token;
-    console.log(csrfToken)
+    // console.log(csrfToken)
     const res = await axios.post(
       '/api/method/doodle.chat_app.app.chat_bot',
       { data: message },
@@ -26,8 +26,6 @@ export const toolsCalling = async (
     }
   } catch (error: any) {
     console.error('Error calling the function:', error);
-
-    // Return a user-friendly error message
     return `Error occurred: ${error.message || 'Unknown error'}`;
   }
 };
