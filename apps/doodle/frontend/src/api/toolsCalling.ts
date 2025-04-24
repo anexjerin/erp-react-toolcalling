@@ -26,8 +26,6 @@ export const toolsCalling = async (
     }
   } catch (error: any) {
     console.error('Error calling the function:', error);
-
-    // Return a user-friendly error message
     return `Error occurred: ${error.message || 'Unknown error'}`;
   }
 };
