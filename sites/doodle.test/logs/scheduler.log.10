@@ -1,4 +1,4 @@
-2025-04-10 10:59:28,727 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:24:47,476 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -42,7 +42,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:00:34,242 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:25:50,485 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -86,7 +86,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:01:38,547 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:26:55,822 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -130,7 +130,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:02:40,906 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:28:00,997 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -174,7 +174,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:03:45,142 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:29:06,142 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -218,7 +218,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:04:49,979 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:30:11,092 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -262,7 +262,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:05:54,227 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:31:16,062 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -306,7 +306,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:06:58,985 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:32:17,887 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -350,7 +350,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:08:03,563 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:33:20,068 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -394,7 +394,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:09:08,246 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:34:24,277 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -438,7 +438,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:10:10,482 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:35:28,960 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -482,7 +482,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:11:14,920 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:36:33,336 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -526,7 +526,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:12:19,553 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:37:39,036 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -570,7 +570,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:13:24,232 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:38:44,572 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -614,7 +614,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:14:26,780 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:39:47,520 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -658,7 +658,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:15:28,147 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:40:53,171 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -702,7 +702,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:16:29,431 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:41:57,442 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -746,7 +746,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:17:31,069 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:43:01,429 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -790,7 +790,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:18:34,166 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:44:04,125 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -834,7 +834,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:19:37,451 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:45:07,717 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -878,7 +878,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:20:40,607 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:46:12,273 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -922,7 +922,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:21:43,692 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:47:17,286 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -966,7 +966,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:35:40,959 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:48:21,878 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1010,7 +1010,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:36:45,287 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:49:25,956 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1054,7 +1054,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:37:49,505 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:50:28,216 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1098,7 +1098,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:38:53,699 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:51:33,240 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1142,7 +1142,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:39:57,818 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:52:38,711 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1186,7 +1186,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:41:02,007 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:53:44,110 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
@@ -1230,7 +1230,7 @@ Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/env/lib/python3.12/site-packages/pymysql/err.py", line 150, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.OperationalError: (1045, "Access denied for user '_c50e25a1751d5327'@'localhost' (using password: YES)")
-2025-04-10 11:42:04,160 ERROR scheduler Exception in Enqueue Events for Site doodle.test
+2025-04-10 12:54:49,554 ERROR scheduler Exception in Enqueue Events for Site doodle.test
 Traceback (most recent call last):
   File "/home/vikki/code/doodle-bench2/doodle-start/apps/frappe/frappe/utils/scheduler.py", line 99, in enqueue_events_for_site
     if is_scheduler_inactive():
